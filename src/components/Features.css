@@ -1,0 +1,110 @@
+.features-shapes {
+    padding: 50px 0px;
+    background-color: white;
+    border: 2px solid #00BFFE;
+    border-radius: 28px;
+    text-align: center;
+    margin: 20px 30px 20px;
+}
+
+.features-shapes .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.features-shapes h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0 0 30px 0; /* Menghapus margin atas dan bawah, hanya menambahkan margin bawah */
+    color: #0069AB;
+    border: none; /* Pastikan tidak ada border */
+}
+
+.features-shapes .features-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.features-shapes .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-right: 40px;
+}
+
+.features-shapes .feature-header {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+    
+}
+
+.features-shapes .feature .icon {
+    font-size: 24px;
+    color: #00BFFE;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.features-shapes .feature .icon-phone {
+    transform: rotate(90deg);
+}
+
+.features-shapes .feature p {
+    color: #888888;
+    margin-left: 2px;
+    margin-bottom: 0;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.features-shapes .feature input[type="email"],
+.features-shapes .feature input[type="tel"],
+.features-shapes .feature input[type="date"] {
+    width: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    text-align: baseline;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #888888;
+}
+
+.features-shapes .input-button-group {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.features-shapes button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    padding: 14px 28px;
+    background-color: #00BFFE;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 24px;
+    margin-top: -5px;
+}
+
+.features-shapes button:hover {
+    background-color: #0099D3;
+}
+
+.features-content button .button-logo {
+    margin-left: 10px;
+}

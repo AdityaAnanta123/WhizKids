@@ -1,0 +1,115 @@
+.testimonials {
+    padding: 0px 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Menambahkan padding kiri dan kanan */
+}
+
+.header-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.header-description {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin-top: 0px ;
+}
+
+.testimonials-content {
+    display: flex;
+    flex-direction: row; /* Mengatur tata letak dari atas ke bawah */
+    align-items: center; /* Menyelaraskan elemen-elemen secara horizontal */
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.testimonial-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to right, #EBF8FF, #FDFEFF); /* Efek latar belakang linear */
+    border: 3px solid #4EC6FF;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 500px;
+    height: 120px;
+}
+
+.testimonial-image {
+    width: 76px;
+    height: 76px;
+    margin: 20px 10px 20px;
+    margin-bottom: 20px; /* Menambahkan jarak antara gambar dan teks */
+    margin-right: 20px;
+    
+}
+
+.testimonial-text {
+    text-align: baseline; /* Menyelaraskan teks ke tengah */
+}
+
+.testimonial-text p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.testimonial-text h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0; /* Menghilangkan margin bawah pada h4 */
+    text-align: left;
+    margin-top: 0;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: row; /* Mengatur tata letak dari atas ke bawah */
+    align-items: center; /* Menyelaraskan elemen-elemen secara horizontal */
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 100px;
+}
+
+.stat {
+    text-align: center;
+    margin-bottom: 20px; /* Menambahkan jarak antara setiap elemen */
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(to right, #0179B4, #88D8FF);
+    -webkit-background-clip: text; /* Untuk browser berbasis WebKit seperti Chrome dan Safari */
+    -webkit-text-fill-color: transparent; /* Untuk browser berbasis WebKit */
+    background-clip: text; /* Untuk browser selain WebKit seperti Firefox */
+    color: transparent; /* Mengatur warna teks menjadi transparan */
+    margin-bottom: 10px;
+}
+
+
+.stat-description {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-top: 0; /* Menghilangkan margin atas pada deskripsi */
+}

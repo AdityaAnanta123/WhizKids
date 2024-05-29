@@ -1,0 +1,68 @@
+.contact-us-section {
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+  }
+  
+  .section-header {
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B0B0B0;
+    margin: 0 250px 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #00A4F4;
+    border-radius: 5px;
+    padding: 5px;
+    color: #B0B0B0;
+  }
+  
+  .input-group .icon {
+    margin-right: 10px;
+  }
+  
+  .input-field {
+    border: none;
+  outline: none;
+  color: #B0B0B0; /* Warna teks input */
+  height: 40px; /* Tinggi input */
+  width: 300px; /* Lebar input */
+  }
+  
+  .contact-button {
+    background-color: #00A4F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Jarak antara tulisan "Hubungi Kami" dengan ikon */
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  

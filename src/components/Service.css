@@ -1,0 +1,95 @@
+/* src/components/FeaturesSection.css */
+.features-section {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Manrope', sans-serif; /* Use Manrope font */
+}
+
+.features-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.features-section .highlight {
+  color: #00aaff;
+}
+
+.features-section .description {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-size: 1.1em;
+  color: #666;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr; /* First column twice the width of second */
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "box1 box2"
+  "box3 box4";
+  gap: 20px;
+  padding:0 120px ; /* Add padding to the left and right */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.feature-box {
+  background: #fff;
+  border: 3px solid #e0f2ff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  text-align: left; /* Align text to the left */
+}
+
+.icon-wrapper {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #EFF9FF; /* Make sure border style is solid */
+  border-radius: 5px;
+  margin-bottom: 0px; /* Add margin-bottom for spacing */
+  margin-top: 40px;
+  background-color: #EFF9FF;
+}
+
+.feature-icon {
+  font-size: 2em;
+  color: #0069AB;
+}
+
+.feature-box h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #0069AB;
+}
+
+.feature-box p {
+  font-size: 1em;
+  color: #666;
+  margin-top: 10px; /* Margin above p */
+  margin-bottom: 50px;
+}
+
+.feature-box1 {
+  grid-area: box1;
+  height: 300px;
+}
+
+.feature-box2 {
+  grid-area: box2;
+}
+
+.feature-box3 {
+  grid-area: box3;
+}
+
+.feature-box4 {
+  grid-area: box4;
+  height: 300px;
+}

@@ -1,0 +1,94 @@
+.doctor-profiles-section {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+  }
+  
+  .doctor-profiles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .doctor-profiles-section .section-title {
+    font-size: 40px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    color: #00A4F4;
+  }
+  
+  .doctor-profiles-section .section-subtitle {
+    font-size: 40px;
+    margin-top: -30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .doctor-profiles-section .section-description {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: #B0B0B0;
+    margin: 30px 250px 30px;
+  }
+  
+  .doctor-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, #35BDFF, #008CD0);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 0px;
+    width: 750px; /* Set specific width */
+    height: 320px; /* Set specific height */
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  
+  .doctor-image {
+    width: 300px;
+    height: 340px;
+    margin-right: 20px;
+  }
+  
+  .doctor-info {
+    text-align: left;
+  }
+  
+  .doctor-info h4 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+  }
+  
+  .doctor-info p {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    color:  #FFFFFF;
+  }
+  
+  .consultation-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FFFFFF; /* Ganti dengan warna solid yang diinginkan */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 800;
+    color: #15B2FF; /* Ganti warna teks menjadi putih atau warna lain yang kontras */
+  }
+
+  
+  .consultation-button .phone-icon {
+    margin-left: 10px; /* Adjust the value to set the desired space */
+    color: #15B2FF;
+  }

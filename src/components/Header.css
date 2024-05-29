@@ -1,0 +1,76 @@
+/* src/components/Header.css */
+.header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Tambahkan align-items: center untuk nav */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Pastikan elemen dalam ul sejajar */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400; /* Regular */
+    line-height: 1.5; /* Pastikan line-height sesuai */
+}
+
+nav ul li a.beranda {
+    color: #00BFFE; /* Warna biru untuk Beranda */
+    font-weight: 700; /* Bold untuk Beranda */
+}
+
+.login-button {
+    display: flex;
+    align-items: center; /* Pastikan button sejajar dengan teks */
+    height: 100%; /* Buat tinggi login-button 100% untuk keselarasan */
+}
+
+.login-button button {
+    padding: 10px 20px;
+    background-color: #00BFFE;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 16px;
+    line-height: 1.5; /* Pastikan line-height sesuai */
+    margin-left: 20px; /* Tambahkan margin untuk memberi jarak dari teks */
+}
+
+.login-button button:hover {
+    background-color: #00BFFE;
+}
