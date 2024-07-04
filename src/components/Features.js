@@ -1,3 +1,5 @@
+// Features.js
+
 import React from 'react';
 import './Features.css';
 import { FaEnvelope, FaPhone, FaCalendarAlt } from 'react-icons/fa';
@@ -33,9 +35,9 @@ const Features = () => {
                         <div className="input-button-group">
                             <input type="date" placeholder="Masukkan Tanggal Konsultasi" />
                             <button className="consultate-button">
-                            Konsultasi
-                            <img src={logo} alt="Logo" className="button-logo" />
-                    </button>
+                                Konsultasi
+                                <img src={logo} alt="Logo" className="button-logo" />
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -15,8 +15,8 @@
 
 .hero-content {
     flex: 1;
-    max-width: 600px; /* Batasi lebar maksimal konten teks */
-    text-align: left; /* Pastikan teks rata kiri */
+    max-width: 600px;
+    text-align: left;
 }
 
 .hero-content h1 {
@@ -67,4 +67,55 @@
 
 .hero-content button .button-logo {
     margin-left: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-content button {
+        padding: 10px 20px;
+    }
+
+    .hero-image {
+        order: -1; /* Membawa gambar ke atas dalam urutan */
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        font-size: 12px;
+    }
+
+    .hero-content button {
+        padding: 8px 16px;
+        font-size: 0.875em;
+    }
+
+    .hero-image {
+        margin-bottom: 10px;
+    }
 }

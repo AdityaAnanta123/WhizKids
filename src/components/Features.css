@@ -19,7 +19,7 @@
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
     font-size: 32px;
-    margin: 0 0 30px 0; /* Menghapus margin atas dan bawah, hanya menambahkan margin bawah */
+    margin: 0 0 10px 0; /* Menghapus margin atas dan bawah, hanya menambahkan margin bawah */
     color: #0069AB;
     border: none; /* Pastikan tidak ada border */
 }
@@ -98,7 +98,7 @@
     cursor: pointer;
     margin-left: 20px;
     font-size: 24px;
-    margin-top: -5px;
+    margin-top: 10px; /* Berikan ruang di atas tombol */
 }
 
 .features-shapes button:hover {
@@ -107,4 +107,30 @@
 
 .features-content button .button-logo {
     margin-left: 10px;
+}
+
+/* Media query untuk layar dengan lebar kurang dari 768px (mobile) */
+@media screen and (max-width: 768px) {
+    .features-shapes .feature {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0; /* Menghapus margin kanan pada fitur */
+    }
+    
+    .features-shapes .feature input[type="email"],
+    .features-shapes .feature input[type="tel"],
+    .features-shapes .feature input[type="date"] {
+        width: 100%; /* Memenuhi lebar fitur */
+        padding: 15px; /* Ubah padding input untuk tampilan mobile */
+        font-size: 14px; /* Ukuran teks input untuk tampilan mobile */
+    }
+    
+    .features-shapes .input-button-group {
+        flex-direction: column; /* Ubah layout menjadi column untuk tampilan mobile */
+        align-items: center; /* Pusatkan elemen di tampilan mobile */
+    }
+
+    .features-shapes button {
+        margin-top: 0px; /* Berikan ruang di atas tombol */
+    }
 }

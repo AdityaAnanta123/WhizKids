@@ -26,10 +26,10 @@
   grid-template-columns: 1.5fr 1.5fr; /* First column twice the width of second */
   grid-template-rows: auto auto;
   grid-template-areas: 
-  "box1 box2"
-  "box3 box4";
+    "box1 box2"
+    "box3 box4";
   gap: 20px;
-  padding:0 120px ; /* Add padding to the left and right */
+  padding: 0 120px; /* Add padding to the left and right */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
@@ -53,8 +53,8 @@
   justify-content: center;
   border: 2px solid #EFF9FF; /* Make sure border style is solid */
   border-radius: 5px;
-  margin-bottom: 0px; /* Add margin-bottom for spacing */
-  margin-top: 40px;
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
+  margin-top: 20px; /* Adjust top margin */
   background-color: #EFF9FF;
 }
 
@@ -73,7 +73,7 @@
   font-size: 1em;
   color: #666;
   margin-top: 10px; /* Margin above p */
-  margin-bottom: 50px;
+  margin-bottom: 20px; /* Adjust bottom margin */
 }
 
 .feature-box1 {
@@ -92,4 +92,31 @@
 .feature-box4 {
   grid-area: box4;
   height: 300px;
+}
+
+/* Media query untuk layar dengan lebar kurang dari 768px (mobile) */
+@media screen and (max-width: 768px) {
+  .features-container {
+    grid-template-columns: 1fr; /* Ubah menjadi satu kolom untuk tampilan mobile */
+    grid-template-rows: auto auto auto auto; /* Tambahkan baris untuk setiap box */
+    grid-template-areas: 
+      "box1"
+      "box2"
+      "box3"
+      "box4";
+    padding: 0 20px; /* Sesuaikan padding untuk tampilan mobile */
+  }
+
+  .feature-box {
+    height: auto; /* Buat ketinggian box menjadi otomatis */
+    margin-bottom: 20px; /* Tambahkan margin bottom untuk pemisah antar box */
+  }
+
+  .icon-wrapper {
+    margin-top: 0; /* Hapus margin top pada icon-wrapper untuk tampilan mobile */
+  }
+
+  .feature-box p {
+    margin-bottom: 20px; /* Sesuaikan margin bottom untuk tampilan mobile */
+  }
 }
