@@ -84,6 +84,7 @@
   .about-section__content-container {
       flex-direction: column;
       align-items: center;
+      margin: 40px 10px;
   }
 
   .about-section__image-container {

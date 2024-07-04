@@ -92,3 +92,31 @@
     margin-left: 10px; /* Adjust the value to set the desired space */
     color: #15B2FF;
   }
+
+  @media (max-width: 768px) {
+    .doctor-profiles-section {
+      padding: 40px;
+    }
+  
+    .doctor-profiles-container {
+      flex-direction: row;
+      gap: 40px;
+      justify-content: center;
+    }
+  
+    .doctor-profile {
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .doctor-image {
+      width: 300px;
+      height: 300px;
+      margin-right: 20px;
+    }
+  
+    .doctor-info {
+      text-align: left;
+    }
+  }
