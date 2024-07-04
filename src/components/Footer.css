@@ -98,3 +98,14 @@
     color: #333;
   }
   
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column; /* Mengubah tata letak menjadi kolom di layar kecil */
+      align-items: center; /* Pusatkan elemen di layar kecil */
+    }
+  
+    .footer-right {
+      width: 100%; /* Mengisi lebar sesuai dengan parent di layar kecil */
+      max-width: none; /* Hapus batasan lebar maksimum */
+    }
+  }

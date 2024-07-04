@@ -31,7 +31,7 @@
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
     color: #B0B0B0;
-    margin: 30px 250px 30px;
+    margin: 30px 200px 30px;
   }
   
   .doctor-profile {
@@ -93,30 +93,44 @@
     color: #15B2FF;
   }
 
-  @media (max-width: 768px) {
-    .doctor-profiles-section {
-      padding: 40px;
-    }
-  
-    .doctor-profiles-container {
-      flex-direction: row;
-      gap: 40px;
-      justify-content: center;
-    }
-  
-    .doctor-profile {
-      flex-direction: row;
-      align-items: flex-start;
-      text-align: left;
-    }
-  
-    .doctor-image {
-      width: 300px;
-      height: 300px;
-      margin-right: 20px;
-    }
-  
-    .doctor-info {
-      text-align: left;
-    }
+  /* Untuk layar dengan lebar maksimum 768px */
+@media (max-width: 768px) {
+  .doctor-profiles-section .section-title {
+    font-size: 32px; /* Mengurangi ukuran font untuk layar kecil */
   }
+
+  .doctor-profiles-section .section-subtitle {
+    font-size: 32px; /* Mengurangi ukuran font untuk layar kecil */
+    margin-top: -20px; /* Atur margin agar subtitle lebih dekat dengan judul */
+  }
+
+  .doctor-profiles-section .section-description {
+    font-size: 14px; /* Mengurangi ukuran font untuk layar kecil */
+    margin: 20px 30px; /* Menyesuaikan margin untuk teks deskripsi */
+  }
+
+  .doctor-profile {
+    width: 100%; /* Mengisi lebar sesuai dengan lebar parent (full-width) */
+    max-width: 100%; /* Mengisi lebar maksimum sesuai dengan lebar parent */
+    height: auto; /* Mengatur tinggi agar sesuai proporsi */
+    flex-direction: column; /* Mengubah tata letak menjadi kolom */
+    text-align: center; /* Teks ditengahkan */
+  }
+
+  .doctor-image {
+    width: 100%; /* Mengisi lebar gambar sesuai dengan parent */
+    height: auto; /* Menyesuaikan tinggi sesuai proporsi */
+    margin-right: 0; /* Hapus margin kanan pada gambar di layar kecil */
+    order: -1; /* Mengubah urutan gambar agar muncul di atas teks */
+    margin-bottom: 10px; /* Atur margin bawah untuk memisahkan gambar dengan teks */
+  }
+
+  .doctor-info {
+    text-align: center; /* Teks info ditengahkan di layar kecil */
+  }
+
+  .consultation-button {
+    width: auto; /* Mengisi lebar tombol sesuai dengan parent */
+    margin-top: 10px; /* Atur margin atas antara tombol dan info */
+  }
+}

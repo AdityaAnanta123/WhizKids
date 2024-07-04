@@ -66,3 +66,18 @@
     background-color: #0056b3;
   }
   
+  @media (max-width: 768px) {
+    .section-description {
+      margin: 0 20px 20px; /* Atur margin untuk tampilan responsif */
+    }
+  
+    .input-container {
+      flex-direction: column; /* Mengubah tata letak menjadi kolom di layar kecil */
+      align-items: center; /* Pusatkan elemen di layar kecil */
+    }
+  
+    .input-field {
+      width: 100%; /* Mengisi lebar sesuai dengan parent di layar kecil */
+      max-width: none; /* Hapus batasan lebar maksimum di layar kecil */
+    }
+  }
